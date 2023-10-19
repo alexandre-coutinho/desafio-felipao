@@ -2,7 +2,7 @@
 
 let heroi = ""
 
-let xpInicial = 0
+let xpInicial = 0    
 
 let xpConquistado = 0
 
@@ -22,31 +22,31 @@ if(heroi.length === 0){
 
 switch(true){
     case xp > 10000:
-        console.log("XP do " + heroi + " é " + xp + " [Radiante]")
+        console.log("O Herói de nome " + heroi + " está no nível Radiante.")
         break
 
     case xp > 9000:
-        console.log("XP do " + heroi + " é " + xp + " [Imortal]")
+        console.log("O Herói de nome " + heroi + " está no nível Imortal")
         break
 
     case xp > 8000:
-        console.log("XP do " + heroi + " é " + xp + " [Ascendente]")
+        console.log("O Herói de nome " + heroi + " está no nível Ascendente")
         break
     
     case xp > 7000:
-        console.log("XP do " + heroi + " é " + xp + " [Platina]")
+        console.log("O Herói de nome " + heroi + " está no nível de Platina")
         break
 
     case xp > 5000:
-        console.log("XP do " + heroi + " é " + xp + " [Ouro]")
+        console.log("O Herói de nome " + heroi + " está no nível de Ouro")
         break
 
     case xp > 2000:
-        console.log("XP do " + heroi + " é " + xp + " [Prata]")
+        console.log("O Herói de nome " + heroi + " está no nível de Prata")
         break
 
     case xp > 1000:
-        console.log("XP do " + heroi + " é " + xp + " [Bronze]")
+        console.log("O Herói de nome " + heroi + " está no nível de Bronze")
         break
 
     case xp === 0:
@@ -54,5 +54,5 @@ switch(true){
         break
 
     default:
-        console.log("XP do " + heroi + " é " + xp + " [Ferro]")
+        console.log("O Herói de nome " + heroi + " está no nível de Ferro")
 }
